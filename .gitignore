@@ -1,0 +1,7 @@
+﻿bin/
+obj/
+*.user
+*.md.bench-backup
+benchmark_report.md
+*.json
+.vs/
