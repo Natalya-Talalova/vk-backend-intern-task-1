@@ -109,7 +109,6 @@ if (runFailed || cts.IsCancellationRequested || runs.Count != 2)
 
 var report = ReportWriter.Build(sys, runs, powerMode);
 Console.WriteLine();
-Console.WriteLine(report);
 File.WriteAllText(outPath, report, new UTF8Encoding(false));
 Console.WriteLine($"Отчёт сохранён: {Path.GetFullPath(outPath)}");
 return 0;
